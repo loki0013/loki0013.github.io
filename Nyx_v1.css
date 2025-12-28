@@ -79,31 +79,30 @@
 
 .nyx-gallery {
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 12px;
+    margin-bottom: 15px;
     justify-content: center;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .nyx-gal-item {
-    width: 243px;
+    flex: 0 0 240px;
     height: 140px;
     background-position: center;
     background-size: cover;
     border-radius: 0;
-    display: block;
 }
 
 .nyx-bar {
-    display: block;
     width: 100%;
     height: 50px;
     background-position: center;
     background-size: cover;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     opacity: 0.8;
-    clear: both;
+    display: block;
 }
 
 .nyx-footer-line {
