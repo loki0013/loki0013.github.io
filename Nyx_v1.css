@@ -80,7 +80,7 @@
 .nyx-gallery {
     display: flex;
     gap: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 0px; 
     justify-content: center;
 }
 
@@ -89,7 +89,7 @@
     height: 140px;
     background-position: center;
     background-size: cover;
-    border-radius: 0;
+    border-radius: 0 !important; 
 }
 
 .nyx-bar {
@@ -97,6 +97,7 @@
     height: 50px;
     background-position: center;
     background-size: cover;
+    margin-top: 0px; 
     margin-bottom: 15px;
     opacity: 0.8;
 }
