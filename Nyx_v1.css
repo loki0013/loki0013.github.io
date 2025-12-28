@@ -81,18 +81,20 @@
     scrollbar-color: #333 #000;
 }
 
-/* Gallery 3 รูป */
+/* Gallery 3 pic */
 .nyx-gallery {
     display: flex;
-    gap: 10px;
-    margin-bottom: 15px;
+    gap: 15px; 
+    margin-bottom: 30px;
+    justify-content: flex-start;
 }
 
 .nyx-gal-item {
-    flex: 1;
-    height: 100px;
+    width: 250px; 
+    height: 140px; 
     background-position: center;
     background-size: cover;
+    border-radius: 8px;
 }
 
 /* pic-bot */
@@ -120,4 +122,5 @@
     letter-spacing: 2px;
     color: #636363;
     text-transform: uppercase;
+
 }
