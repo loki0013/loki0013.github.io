@@ -1,0 +1,123 @@
+/* Main Container */
+.nyx-box {
+    width: 850px;
+    margin: 0 auto;
+    background: #000;
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 50px;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    line-height: normal;
+    text-align: left;
+}
+
+/* Header */
+.nyx-hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+.nyx-name h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 0.9;
+    color: #fff;
+}
+
+.nyx-name h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+/* Date */
+.nyx-date {
+    text-align: right;
+    color: #444;
+}
+
+.nyx-date-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nyx-line {
+    width: 40px;
+    height: 1px;
+    background: #333;
+}
+
+.nyx-year {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+/* Scrollbar */
+.nyx-main-text {
+    height: 200px;
+    overflow-y: auto;
+    padding-right: 25px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #bbb;
+    text-align: justify;
+    margin-bottom: 30px;
+    scrollbar-width: thin;
+    scrollbar-color: #333 #000;
+}
+
+/* Gallery 3 รูป */
+.nyx-gallery {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.nyx-gal-item {
+    flex: 1;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* pic-bot */
+.nyx-bar {
+    width: 100%;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+/* Footer */
+.nyx-footer-line {
+    width: 100%;
+    height: 1px;
+    background: #333;
+    margin-bottom: 15px;
+}
+
+.nyx-footer-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #636363;
+    text-transform: uppercase;
+}
