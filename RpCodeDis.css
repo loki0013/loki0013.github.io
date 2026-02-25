@@ -11,6 +11,8 @@
     margin: auto;
     box-sizing: border-box;
     border: 1px solid #333;
+    /* สร้างตัวแปรสีหัวข้อไว้ตรงนี้ เพื่อให้ HTML เรียกเปลี่ยนได้ */
+    --title-color: #d1d19b; 
 }
 
 /* pic Banner */
@@ -129,10 +131,11 @@
 }
 
 .content-title {
-    color: #6d2020;
+    color: var(--title-color); 
     margin: 0 0 15px 0;
     font-size: 18px;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .content-body {
