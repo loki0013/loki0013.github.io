@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+/* main */
+.user-card {
+    background: #23272a;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+
+/* pic Banner */
+.user-banner {
+    height: 180px;
+    background: url('URL_background') center/cover no-repeat;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    margin: -20px -20px 0 -20px;
+}
+
+/* profile_name-icon*/
+.user-header {
+    display: flex;
+    align-items: flex-end;
+    margin-top: -40px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    gap: 10px;
+}
+
+.user-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 5px solid #23272a;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.user-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.user-main-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* status */
+.user-status-box {
+    background: rgba(44, 47, 51, 0.9);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 1px solid #444;
+    min-width: 150px;
+    max-width: 250px;
+    word-wrap: break-word;
+    line-height: 1.4;
+    color: #d1d19b;
+    font-weight: bold;
+}
+
+/* icon */
+.user-icons-group {
+    display: flex;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.icon-btn {
+    background: #2c2f33;
+    padding: 8px;
+    border-radius: 8px;
+    color: #aaa;
+    border: 1px solid #444;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* @_username-note*/
+.user-sub-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.user-at-name {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.user-note {
+    background: #3e4147;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 11px;
+    color: #b9bbbe;
+    border: 1px solid #4f545c;
+    max-width: 320px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* text-rp */
+.user-content-box {
+    background: #36393f;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+    min-height: 200px;
+    border: 1px solid #444;
+}
+
+.content-title {
+    color: #6d2020;
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content-body {
+    color: #99aab5;
+    line-height: 1.6;
+    font-size: 14px;
+}
