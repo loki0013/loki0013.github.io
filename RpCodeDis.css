@@ -145,31 +145,23 @@
     font-size: 14px;
 }
 
-/* credit section */
-.credit-link {
+
+.user-card::after {
     display: block;
+    content: "⊹"; 
     position: absolute;
     bottom: 10px;
     left: 0;
     right: 0;
     text-align: center;
-    text-decoration: none !important;
     font-family: 'Chakra Petch', sans-serif;
     font-size: 10px;
     color: gray !important;
     transition: all 0.3s ease;
-    z-index: 10;
     opacity: 0.6;
 }
 
-.credit-link::before {
-    content: "⊹";
-}
-
-.user-card:hover .credit-link::before {
-    content: "© ST.";
-}
-
-.user-card:hover .credit-link {
+.user-card:hover::after {
+    content: "© ST.";  
     opacity: 1;
 }
