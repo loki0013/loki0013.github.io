@@ -145,7 +145,7 @@
     font-size: 14px;
 }
 
-
+/* cr */
 .user-card::after {
     display: block;
     content: "⊹"; 
@@ -159,9 +159,21 @@
     color: gray !important;
     transition: all 0.3s ease;
     opacity: 0.6;
+    z-index: 1; 
 }
 
 .user-card:hover::after {
-    content: "© ST.";  
+    content: "© ST. | Credit by Early Birds Co."; 
     opacity: 1;
+}
+
+.credit-link {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    height: 25px; 
+    z-index: 5; 
+    text-decoration: none !important;
+    cursor: pointer;
 }
