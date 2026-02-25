@@ -143,5 +143,35 @@
     font-size: 14px;
 }
 
+.user-card {
+    position: relative;
+    padding-bottom: 40px !important; 
+}
 
+.credit-link {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-decoration: none !important;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 10px;
+    color: gray !important;
+    transition: all 0.3s ease;
+    z-index: 10;
+    opacity: 0.6;
+}
 
+.credit-link::before {
+    content: "⊹";
+}
+
+.user-card:hover .credit-link::before {
+    content: "© ST.";
+}
+
+.user-card:hover .credit-link {
+    opacity: 1;
+}
