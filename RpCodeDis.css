@@ -163,7 +163,7 @@
 }
 
 .user-card:hover::after {
-    content: "© ST. | Credit by Early Birds Co."; 
+    content: "© ST."; 
     opacity: 1;
 }
 
@@ -177,3 +177,4 @@
     text-decoration: none !important;
     cursor: pointer;
 }
+
