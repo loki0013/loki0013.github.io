@@ -68,7 +68,7 @@
     max-width: 250px;
     word-wrap: break-word;
     line-height: 1.4;
-    color: var(--title-color);
+    color: var(--title-color) !important;
     font-weight: bold;
 }
 
@@ -142,5 +142,6 @@
     line-height: 1.6;
     font-size: 14px;
 }
+
 
 
