@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
+:root {
+    --bg-color: #23272a;
+    --title-color: #d1d19b;
+}
+
+/* main container */
 .user-card {
-    background: var(--bg-color, #23272a); 
+    background: var(--bg-color); 
     border-radius: 15px;
     padding: 20px;
     padding-bottom: 40px !important; 
@@ -12,8 +18,6 @@
     box-sizing: border-box;
     border: 1px solid #333;
     position: relative; 
-    --title-color: #d1d19b; 
-    --bg-color: #23272a; 
 }
 
 /* pic Banner */
@@ -40,7 +44,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border: 5px solid var(--bg-color, #23272a); 
+    border: 5px solid var(--bg-color); 
     object-fit: cover;
     flex-shrink: 0;
 }
@@ -177,5 +181,3 @@
     text-decoration: none !important;
     cursor: pointer;
 }
-
-
