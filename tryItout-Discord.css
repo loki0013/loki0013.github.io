@@ -46,7 +46,7 @@
 
 /* @username color */
 .user-at-name {
-    color: var(--at-name-color) !important; 
+    color: var(--at-name-color) !important;
     font-size: 12px;
     font-weight: bold;
     flex-shrink: 0;
@@ -85,7 +85,7 @@
     padding: 4px 12px;
     border-radius: 12px;
     font-size: 11px;
-    color: var(--note-text-color) !important; 
+    color: var(--note-text-color) !important;
     border: 1px solid rgba(255,255,255,0.05);
     max-width: 320px; 
     overflow: hidden;
