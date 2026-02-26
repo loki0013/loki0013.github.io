@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
-:root {
-    --bg-color: #23272a;
-    --title-color: #d1d19b;
-}
-
 /* main container */
 .user-card {
     background: var(--bg-color); 
