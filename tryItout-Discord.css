@@ -47,13 +47,16 @@
     font-weight: bold;
 }
 
+.user-status-box, .user-note, .content-title, .content-body {
+    color: var(--main-text-color) !important;
+}
+
 .user-status-box {
     background: var(--box-color);
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 13px;
     border: none;
-    color: var(--main-text-color) !important;
     font-weight: bold;
 }
 
@@ -72,7 +75,6 @@
     padding: 4px 12px;
     border-radius: 12px;
     font-size: 11px;
-    color: var(--main-text-color) !important;
     border: none;
 }
 
@@ -86,14 +88,12 @@
 }
 
 .content-title {
-    color: var(--main-text-color) !important; 
     margin: 0 0 15px 0;
     font-size: 18px;
     font-weight: bold;
 }
 
 .content-body {
-    color: var(--main-text-color) !important;
     line-height: 1.6;
     font-size: 14px;
 }
@@ -105,6 +105,7 @@
 .user-card:hover::after { content: "© ST."; opacity: 1; }
 .credit-link { position: absolute; bottom: 5px; left: 0; right: 0; height: 25px; z-index: 5; text-decoration: none !important; cursor: pointer; }
 
+/* Layout Helpers */
 .user-info-wrapper { display: flex; flex-direction: column; gap: 8px; flex-grow: 1; min-width: 0; }
 .user-main-row { display: flex; gap: 8px; align-items: center; }
 .user-icons-group { display: flex; gap: 5px; flex-shrink: 0; }
