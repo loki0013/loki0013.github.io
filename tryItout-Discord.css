@@ -93,7 +93,7 @@
 }
 
 .content-body {
-    color: var(--body-text-color) !important; /* ตอนนี้คุมผ่าน HTML ได้แล้วครับ */
+    color: var(--body-text-color) !important;
     line-height: 1.6;
     font-size: 14px;
 }
