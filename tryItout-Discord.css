@@ -10,7 +10,7 @@
     max-width: 600px;
     margin: auto;
     box-sizing: border-box;
-    border: none; 
+    border: none;
     position: relative; 
 }
 
@@ -93,7 +93,7 @@
 }
 
 .content-body {
-    color: var(--body-text-color) !important; 
+    color: var(--body-text-color) !important; /* ตอนนี้คุมผ่าน HTML ได้แล้วครับ */
     line-height: 1.6;
     font-size: 14px;
 }
@@ -112,7 +112,7 @@
 .user-card:hover::after { content: "© ST."; opacity: 1; }
 .credit-link { position: absolute; bottom: 5px; left: 0; right: 0; height: 25px; z-index: 5; text-decoration: none !important; cursor: pointer; }
 
-/* Layout Helpers */
+/* Helpers */
 .user-info-wrapper { display: flex; flex-direction: column; gap: 8px; flex-grow: 1; min-width: 0; }
 .user-main-row { display: flex; gap: 8px; align-items: center; }
 .user-icons-group { display: flex; gap: 5px; flex-shrink: 0; }
