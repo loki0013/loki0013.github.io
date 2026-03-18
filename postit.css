@@ -4,7 +4,7 @@
     max-width: 600px; 
     margin: 10px auto;
     padding: 15px; 
-    padding-bottom: 25px; 
+    padding-bottom: 30px; 
     background: #000;
     border-radius: 12px;
     border: 1px solid #333;
@@ -17,7 +17,7 @@
     display: block;
     content: "⊹"; 
     position: absolute;
-    bottom: 8px; 
+    bottom: 10px; 
     left: 0;
     right: 0;
     text-align: center;
@@ -25,6 +25,7 @@
     color: gray !important;
     transition: all 0.3s ease;
     opacity: 0.6;
+    z-index: 1; 
 }
 
 .postit-container:hover::after {
@@ -72,7 +73,7 @@
     margin: 12px 0;
     font-size: 15px; 
     line-height: 1.6;
-}
+    text-align: justify; 
 
 .postit-footer-time {
     text-align: right;
