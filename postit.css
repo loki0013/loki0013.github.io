@@ -4,7 +4,7 @@
     max-width: 600px;
     margin: 15px auto;
     padding: 15px;
-    padding-bottom: 30px; 
+    padding-bottom: 25px; 
     background: #000;
     border-radius: 15px;
     border: 1px solid #333;
@@ -80,7 +80,7 @@
     text-align: right;
     font-size: 11px;
     color: #657786;
-    margin-bottom: 15px;
+    margin-bottom: 8px; 
 }
 
 .postit-actions-table {
@@ -96,6 +96,6 @@
     font-weight: bold;
     cursor: pointer;
     font-size: 13px;
-    padding-top: 20px;    
-    padding-bottom: 10px; 
+    padding-top: 12px;   
+    padding-bottom: 5px; 
 }
