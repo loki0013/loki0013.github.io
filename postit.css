@@ -2,11 +2,11 @@
 
 .postit-container {
     max-width: 600px;
-    margin: 15px auto;
-    padding: 15px;
-    padding-bottom: 25px; 
+    margin: 5px auto;
+    padding: 6px;
+    padding-bottom: 20px; 
     background: #000;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 1px solid #333;
     font-family: 'Chakra Petch', sans-serif;
     box-sizing: border-box;
@@ -17,16 +17,14 @@
     display: block;
     content: "⊹"; 
     position: absolute;
-    bottom: 10px; 
+    bottom: 4px; 
     left: 0;
     right: 0;
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 10px;
+    font-size: 9px;
     color: gray !important;
     transition: all 0.3s ease;
-    opacity: 0.6;
-    z-index: 1; 
+    opacity: 0.5;
 }
 
 .postit-container:hover::after {
@@ -35,52 +33,48 @@
 }
 
 .postit-card {
-    padding: 15px;
+    padding: 8px 12px;
     background: #111;
-    border-radius: 12px;
+    border-radius: 8px;
     color: #fff;
 }
 
 .postit-header {
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 5px; 
 }
 
 .postit-avatar {
-    width: 40px;
-    height: 40px;
+    width: 30px; 
+    height: 30px;
     border-radius: 50%;
     background: #333 center/cover;
-    margin-right: 10px;
+    margin-right: 8px;
     flex-shrink: 0;
 }
 
 .postit-user-info strong {
-    font-size: 14px;
-}
-
-.postit-handle {
-    color: #1da1f2;
+    font-size: 13px;
+    line-height: 1.2;
 }
 
 .postit-date {
-    font-size: 11px;
+    font-size: 9px;
     color: #657786;
 }
 
 .postit-content {
-    margin: 15px 0;
-    font-size: 14px;
-    line-height: 1.5;
-    min-height: 40px;
+    margin: 5px 0; 
+    font-size: 13px;
+    line-height: 1.3;
 }
 
 .postit-footer-time {
     text-align: right;
-    font-size: 11px;
+    font-size: 9px;
     color: #657786;
-    margin-bottom: 8px; 
+    margin-bottom: 4px; 
 }
 
 .postit-actions-table {
@@ -95,7 +89,7 @@
     color: #1da1f2;
     font-weight: bold;
     cursor: pointer;
-    font-size: 13px;
-    padding-top: 10px;   
-    padding-bottom: 5px; 
+    font-size: 11px;
+    padding-top: 8px; 
+    padding-bottom: 2px; 
 }
