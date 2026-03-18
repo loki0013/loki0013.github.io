@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+.postit-container {
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 15px;
+    background: #000;
+    border-radius: 15px;
+    border: 1px solid #333;
+    font-family: 'Chakra Petch', sans-serif;
+    box-sizing: border-box;
+}
+
+.postit-card {
+    padding: 15px;
+    background: #111;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.postit-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.postit-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #333 center/cover;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.postit-user-info strong {
+    font-size: 14px;
+}
+
+.postit-handle {
+    color: #1da1f2;
+}
+
+.postit-date {
+    font-size: 11px;
+    color: #657786;
+}
+
+.postit-content {
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    min-height: 40px;
+}
+
+.postit-footer-time {
+    text-align: right;
+    font-size: 11px;
+    color: #657786;
+    margin-bottom: 10px;
+}
+
+.postit-actions-table {
+    width: 100%;
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    border-collapse: collapse;
+}
+
+.postit-action-btn {
+    width: 50%;
+    text-align: center;
+    color: #1da1f2;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+}
+
