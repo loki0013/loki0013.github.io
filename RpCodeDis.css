@@ -163,7 +163,7 @@
 }
 
 .user-card:hover::after {
-    content: "© ST."; 
+    content: "© SN."; 
     opacity: 1;
 }
 
