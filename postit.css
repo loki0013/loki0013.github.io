@@ -28,7 +28,7 @@
 }
 
 .postit-container:hover::after {
-    content: "© ST."; 
+    content: "© SN."; 
     opacity: 1;
 }
 
