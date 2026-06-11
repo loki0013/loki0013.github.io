@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/yokohama');
+
 .rp-container {
     max-width: 600px;
     margin: 10px auto;
@@ -73,6 +74,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    /* ยัดไอคอนซองจดหมายเข้ามาเป็น Background พื้นหลังในนี้ */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2'%3E%3Cpath d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/%3E%3Cpolyline points='22,6 12,13 2,6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .rp-title-section {
     text-align: right;
