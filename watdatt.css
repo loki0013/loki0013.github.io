@@ -74,11 +74,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    /* เปลี่ยนมาใช้ลิงก์รูปภาพโดยตรงตามที่แจ้งมาครับ */
     background-image: url('https://iili.io/CCq39pe.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 16px 16px; /* บังคับขนาดไอคอนซองจดหมายให้จุ๋มจิ๋มกำลังดี */
+    background-size: 16px 16px; 
 }
 .rp-title-section {
     text-align: right;
