@@ -94,11 +94,11 @@
 
 .sp-song-info {
     display: flex;
-    align-items: center;
-    gap: 6px;
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 2px;
     min-width: 0;
     flex: 1;
-    white-space: nowrap; 
 }
 
 .sp-song-title {
@@ -106,7 +106,9 @@
     font-weight: 700;
     color: #ffffff;
     white-space: nowrap;
-    flex-shrink: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
 }
 
 .sp-artist-name {
@@ -114,7 +116,8 @@
     color: #777777;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
+    max-width: 100%;
 }
 
 .sp-controls-mini {
