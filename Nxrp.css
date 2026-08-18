@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700;800&family=Playfair+Display:ital@1&display=swap');
+.sp-container {
+    max-width: 580px;
+    margin: 10px auto;
+    padding: 35px 35px 45px 35px;
+    background: #111111;
+    border: 1px solid #222222;
+    border-radius: 32px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.sp-container *, .sp-container *::before, .sp-container *::after {
+    box-sizing: border-box;
+}
+.sp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.sp-title
+-box {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.sp-title-sub {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #a7a7a7;
+    display: block;
+    margin: 3px 0;
+}
+
+.sp-badge {
+    background: #1e1e1e;
+    border: 1px solid #333333;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.sp-quote {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #cccccc;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.sp-content {
+    font-size: 14.5px;
+    line-height: 2.0;
+    color: #dddddd;
+    text-align: justify;
+    word-break: break-word;
+    margin-bottom: 25px;
+}
+
+.sp-paragraph {
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+.sp-player-card {
+    background: #161616;
+    border-radius: 16px;
+    padding: 10px 14px;
+    border: 1px solid #222222;
+    margin-top: 20px;
+}
+
+.sp-player-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.sp-song-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sp-song-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.sp-artist-name {
+    font-size: 11px;
+    color: #777777;
+}
+
+.sp-controls-mini {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sp-heart-icon {
+    color: #1db954;
+    font-size: 12px;
+}
+
+.sp-play-btn-mini {
+    width: 24px;
+    height: 24px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.sp-progress-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sp-time {
+    font-size: 9px;
+    color: #555555;
+}
+
+.sp-progress-bar {
+    flex: 1;
+    height: 3px;
+    background: #282828;
+    border-radius: 2px;
+}
+
+.sp-progress-fill {
+    width: 25%;
+    height: 100%;
+    background: #1db954;
+    border-radius: 2px;
+}
+
+.sp-container::after {
+    display: block;
+    content: "⊹";
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 11px;
+    color: #555555 !important;
+    transition: all 0.3s ease;
+    opacity: 0.6;
+}
+
+.sp-container:hover::after {
+    content: "© SN.";
+    opacity: 1;
+}
