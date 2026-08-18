@@ -78,8 +78,8 @@
 
 .sp-player-card {
     background: #161616;
-    border-radius: 16px;
-    padding: 10px 14px;
+    border-radius: 20px;
+    padding: 18px 20px 14px 20px;
     border: 1px solid #222222;
     margin-top: 20px;
 }
@@ -87,87 +87,91 @@
 .sp-player-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 8px;
-    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 14px;
 }
 
 .sp-song-info {
     display: flex;
-    flex-direction: column; 
-    align-items: flex-start;
-    gap: 2px;
-    min-width: 0;
-    flex: 1;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .sp-song-title {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     color: #ffffff;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
+    line-height: 1.2;
 }
 
 .sp-artist-name {
-    font-size: 11px;
-    color: #777777;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
-}
-
-.sp-controls-mini {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
+    font-size: 12px;
+    color: #888888;
+    line-height: 1.2;
 }
 
 .sp-heart-icon {
     color: #1db954;
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 1;
 }
 
-.sp-play-btn-mini {
-    width: 24px;
-    height: 24px;
+.sp-progress-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.sp-time {
+    font-size: 10px;
+    color: #666666;
+}
+
+.sp-progress-bar {
+    flex: 1;
+    height: 3px;
+    background: #2a2a2a;
+    border-radius: 2px;
+    position: relative;
+}
+
+.sp-progress-fill {
+    width: 30%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 2px;
+    position: relative;
+}
+
+.sp-progress-fill::after {
+    content: "";
+    position: absolute;
+    right: -4px;
+    top: -2.5px;
+    width: 8px;
+    height: 8px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.sp-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp-play-btn {
+    width: 28px;
+    height: 28px;
     background: #ffffff;
     color: #000000;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: bold;
-}
-
-.sp-progress-wrap {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.sp-time {
-    font-size: 9px;
-    color: #555555;
-}
-
-.sp-progress-bar {
-    flex: 1;
-    height: 3px;
-    background: #282828;
-    border-radius: 2px;
-}
-
-.sp-progress-fill {
-    width: 25%;
-    height: 100%;
-    background: #1db954;
-    border-radius: 2px;
 }
 
 .sp-container::after {
